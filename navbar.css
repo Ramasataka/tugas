@@ -1,0 +1,35 @@
+/* .nav-link {
+  color: white !important;
+} */
+
+nav {
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: white;
+  font-family: 'Arbutus Slab';
+  font-size: 14px;
+  position: relative;
+  display: inline-block; 
+  overflow: hidden; 
+}
+
+.navbar hr {
+  border: none;
+  height: 2px;
+  background-color: #0dcaf0;
+  width: 25%; 
+  transition: width 0.3s ease-in-out;
+  margin: auto;
+}
+
+.navbar:hover hr {
+  width: 100%; 
+}
+
